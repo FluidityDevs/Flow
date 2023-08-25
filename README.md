@@ -3,7 +3,7 @@ A basic Windows PE environment to unlock certain computers from Windows 8.1 to 1
 Built with the 2022 Windows 11 ADK.
 
 
-**Includes these projects.**
+**Includes these projects:**
 
 https://www.opautoclicker.com/
 
