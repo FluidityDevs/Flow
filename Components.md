@@ -15,6 +15,8 @@
 
 ### Programs
 
-Firefox - Browser of choice useful for evading Edge's required sign-on
-Process Hacker 2 - Advanced task manager, useful for inspecting processes and running programs with elevated system users
-Rufus - Flashing itself
+**Firefox** - Browser of choice useful for evading Edge's required sign-on
+
+**Process Hacker 2** - Advanced task manager, useful for inspecting processes and running programs with elevated system users
+
+**Rufus** - Flashing new Flow media
