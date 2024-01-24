@@ -7,7 +7,7 @@
 
 **unlock** - WIM file - Performs the transfer of **environment** and **flowd** to the internal disk. Does Registry modifications to trigger the bootscreen command prompt exploit.
 
-**flowUpdater** - External Storage - Transfers updated versions of flowd to the internal disk.
+**updater** - External Storage - Transfers updated versions of flowd to the internal disk.
 
 ### Components of Scripts
 
