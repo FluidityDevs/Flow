@@ -18,9 +18,27 @@ DISM GUI (Optional, CLI can be used instead, DISM is used for system modificatio
 
 Start the Deployment and Imaging Tools Environment as an Administrator
 
-`MakeWinPEMedia /ISO <Directory For Source> <Directory For Output Image>.iso`
+Run `MakeWinPEMedia /ISO <Directory For Source> <Directory For Output Image>.iso`
 
 That's all you need to compile Flow into an ISO, but I do recommend Rufus to flash your USB, and DISM GUI to make any system modifications.
+
+*Instructions (USB, from source):*
+
+Start the Deployment and Imaging Tools Environment as an Administrator
+
+Run `MakeWinPEMedia /USB <Directory for Source> <Drive Letter>`
+
+And that's all you need to compile Flow while flashing directly to a USB device.
+
+*Instructions (USB, from ISO):*
+
+1. Open Rufus
+2. Select your flash drive and drag in the ISO file
+3. Show advanced format options
+4. Uncheck "Create extended label and icon files" (as Flow already includes some)
+5. Press start, and confirm writing in ISO image mode
+
+Done! You now have a bootable UEFI USB drive for Flow, including all included scripts
 
 **Includes these projects:**
 
@@ -28,5 +46,6 @@ https://processhacker.sourceforge.io/
 
 https://www.mozilla.org/en-US/firefox/
 
+https://github.com/FluidityDevs/flowd
 
 Free to use by anyone, you just have to build/flash it yourself.
