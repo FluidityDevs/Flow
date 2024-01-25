@@ -1,4 +1,4 @@
-# Components included with Flow (as of 2.1)
+# Components included with Flow (as of 2.1.1)
 
 ### Scripts
 **flowd** - Internal Disk + WIM file - Transfers to internal drive immediately upon booting Flow, background process for general maintenance and persistence. Maintained separately from Flow.
@@ -8,6 +8,8 @@
 **unlock** - WIM file - Performs the transfer of **environment** and **flowd** to the internal disk. Does Registry modifications to trigger the bootscreen command prompt exploit.
 
 **updater** - External Storage - Transfers updated versions of flowd to the internal disk.
+
+**installer** - External Storage - Allows you to install flowd manually to the internal disk if you have administrator permissions and do not wish to boot full Flow.
 
 ### Components of Scripts
 
